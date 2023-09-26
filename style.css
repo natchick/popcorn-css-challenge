@@ -7,9 +7,9 @@ body{
     background-color: #d4a76a;
 }
 
-.top{
+.cntr{
     display:grid;
-    grid-template-columns: 500px 50px 50px 50px;
+    grid-template-columns: 700px 100px 100px 100px 100px;
     column-gap: 10px;
 }
 
@@ -24,10 +24,12 @@ body{
     text-align:center;
 }
 button{
+    width:fit-content;
     color: white;
     background-color: #805215;
     font-weight: bold;
     display: inline-block;
+    font-size: larger;
 }
 section{
     background-color: white;
